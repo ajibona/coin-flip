@@ -1,0 +1,88 @@
+*,
+::after,
+::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  font-family: cursive;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.coins-logo{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-inline: auto;
+  position: relative;
+}
+
+.circle1{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 102, 248);
+  border-radius: 50%;
+}
+
+.circle2{
+  width: 100px;
+  height: 100px;
+  outline: 8px solid red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.button-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+button{
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus{
+  background-color: red;
+  color: #fff;
+}
+
+.score{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.counting{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.counting p{
+  font-size: 1.4rem;
+}
+
